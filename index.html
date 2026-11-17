@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨ Glowing Gems — Everyday Stainless Steel Accessories | Cairo</title>
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+  <meta name="description" content="Water-resistant stainless steel accessories crafted for everyday moments in Cairo & Egypt — with custom gold plating available upon request. Your everyday sparkle starts here!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syncopate:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar" role="region" aria-label="Store announcements">
+    <div class="announcement-track">
+      <span>📍 Shipping Across Cairo &amp; Egypt</span>
+      <span class="dot">•</span>
+      <span>❣️ Custom Gold Plating Available Upon Request</span>
+      <span class="dot">•</span>
+      <span>✨ Your Everyday Sparkle Starts Here!</span>
+      <span class="dot">•</span>
+      <span>💎 New Drop &amp; Special Offers Live Now</span>
+    </div>
+  </div>
+
+  <!-- Sticky Header -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#shop">Shop All</a>
+        <a href="#categories">Categories</a>
+        <a href="#gold-plating">Gold Plating</a>
+        <a href="#unboxing">Unboxing</a>
+      </nav>
+
+      <a href="#top" class="brand-logo" aria-label="Glowing Gems Home">
+        <img src="assets/logo.jpg" alt="Glowing Gems Logo" class="logo-img" />
+        <span class="logo-text">GLOWING GEMS</span>
+      </a>
+
+      <div class="header-actions">
+        <a href="#feedbacks" class="nav-secondary-link">Feedbacks</a>
+        <a href="#shipping-policy" class="nav-secondary-link">Shipping &amp; Policy</a>
+        <button class="cart-trigger" id="cartTrigger" aria-label="Open shopping bag">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-count" id="cartCount">0</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <a href="#shop" class="mobile-nav-link">Shop All</a>
+      <a href="#categories" class="mobile-nav-link">Categories</a>
+      <a href="#gold-plating" class="mobile-nav-link">Custom Gold Plating</a>
+      <a href="#unboxing" class="mobile-nav-link">Pink Box Unboxing</a>
+      <a href="#feedbacks" class="mobile-nav-link">Customer Feedbacks</a>
+      <a href="#shipping-policy" class="mobile-nav-link">Shipping &amp; Policy</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span>📍 Cairo, Egypt</span>
+            <span class="pill-divider">•</span>
+            <span>Stainless Steel Accessories</span>
+          </div>
+          <h1>Your Everyday <em>Sparkle</em> Starts Here.</h1>
+          <p class="hero-subtitle">
+            Strong, timeless stainless steel jewelry crafted for everyday moments—from Cairo coffee runs to coastal getaways. Add <strong>Custom Gold Plating</strong> upon request so your pieces grow with you, never fade.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#shop" class="btn btn-primary">Shop New Drops ✨</a>
+            <a href="#gold-plating" class="btn btn-outline">Explore Gold Plating ❣️</a>
+          </div>
+          <div class="hero-trust-row">
+            <div class="trust-item">
+              <span class="trust-icon">💧</span>
+              <span>Water-Resistant Steel</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-icon">✨</span>
+              <span>Custom Gold Plating</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-icon">🛵</span>
+              <span>Egypt-Wide Delivery</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-frame">
+            <img src="assets/hero-jewelry.jpg" alt="Layered gold stainless steel bracelets, star-engraved bangle, and chunky dome rings in warm sunlight" />
+            <div class="floating-badge">
+              <span class="badge-tag">NEW DROP 💎</span>
+              <strong>Starlight Bangle &amp; Dome Stack</strong>
+              <span>Gold Plating Available</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Showcase -->
+    <section class="categories section-pad" id="categories">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Curated Everyday Staples</span>
+          <h2>Shop by <em>Category</em></h2>
+        </div>
+
+        <div class="category-grid">
+          <button class="category-card" data-filter="bracelets">
+            <div class="category-img-wrap">
+              <img src="assets/hero-jewelry.jpg" alt="Bracelets and Cuffs" />
+            </div>
+            <div class="category-meta">
+              <h3>Bracelets &amp; Cuffs</h3>
+              <span>Star bangles, hand-chains &amp; tennis</span>
+            </div>
+          </button>
+
+          <button class="category-card" data-filter="rings">
+            <div class="category-img-wrap">
+              <img src="assets/rings-earrings-macro.jpg" alt="Rings" />
+            </div>
+            <div class="category-meta">
+              <h3>Rings</h3>
+              <span>Dome, ribbed &amp; star signets</span>
+            </div>
+          </button>
+
+          <button class="category-card" data-filter="earrings">
+            <div class="category-img-wrap">
+              <img src="assets/rings-earrings-macro.jpg" alt="Earrings" />
+            </div>
+            <div class="category-meta">
+              <h3>Earrings</h3>
+              <span>Puffed heart hoops &amp; ribbed drops</span>
+            </div>
+          </button>
+
+          <button class="category-card" data-filter="necklaces">
+            <div class="category-img-wrap">
+              <img src="assets/necklaces-lifestyle.jpg" alt="Necklaces" />
+            </div>
+            <div class="category-meta">
+              <h3>Necklaces</h3>
+              <span>North Star pendants &amp; coin layers</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Differentiator: Custom Gold Plating -->
+    <section class="gold-plating-section section-pad" id="gold-plating">
+      <div class="container">
+        <div class="editorial-card">
+          <div class="editorial-content">
+            <span class="eyebrow">Our Signature Upgrade ❣️</span>
+            <h2 class="editorial-headline">the rest is a <em>secret...</em></h2>
+            <p class="editorial-lead">
+              To make your jewelry last longer... Our pieces are crafted from high-quality <strong>stainless steel</strong> — strong, timeless, and designed for everyday moments.
+            </p>
+            <p>
+              But life happens. Perfume, water, sweat, friction... That’s why we created a brilliant and practical solution: <strong>Custom Gold Plating upon request</strong> — specially done for your order, ensuring your jewelry keeps its shine and beauty for longer.
+            </p>
+            <blockquote class="editorial-quote">
+              “Because jewelry should grow with you, not fade away.”
+            </blockquote>
+            <div class="plating-perks">
+              <div class="perk">
+                <strong>+120 EGP</strong>
+                <span>Per piece upgrade</span>
+              </div>
+              <div class="perk">
+                <strong>Made to Order</strong>
+                <span>Plated fresh for your order</span>
+              </div>
+              <div class="perk">
+                <strong>Extra Shield</strong>
+                <span>Against perfume &amp; friction</span>
+              </div>
+            </div>
+            <a href="#shop" class="btn btn-berry">Shop &amp; Add Gold Plating ✨</a>
+          </div>
+
+          <div class="editorial-visual">
+            <div class="plating-preview-box">
+              <img src="assets/rings-earrings-macro.jpg" alt="Gold-plated stainless steel rings and hoops" />
+              <div class="plating-overlay-tag">
+                <span>✨ Toggle Gold Plating on any piece below</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop All / New Drops & Special Offers -->
+    <section class="shop-section section-pad" id="shop">
+      <div class="container">
+        <div class="shop-header">
+          <div>
+            <span class="eyebrow">New Drops &amp; Special Offers</span>
+            <h2>Everyday <em>Sparkle</em> Collection</h2>
+          </div>
+
+          <div class="filter-bar" role="tablist" aria-label="Filter products by category">
+            <button class="filter-btn active" data-filter="all">All Pieces</button>
+            <button class="filter-btn" data-filter="bracelets">Bracelets</button>
+            <button class="filter-btn" data-filter="rings">Rings</button>
+            <button class="filter-btn" data-filter="earrings">Earrings</button>
+            <button class="filter-btn" data-filter="necklaces">Necklaces</button>
+          </div>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+          <!-- Products rendered dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Unboxing Experience -->
+    <section class="unboxing-section section-pad" id="unboxing">
+      <div class="container unboxing-grid">
+        <div class="unboxing-media">
+          <img src="assets/pink-box-unboxing.jpg" alt="Glowing Gems signature hot pink gift box unboxing with gold jewelry" />
+        </div>
+        <div class="unboxing-content">
+          <span class="eyebrow">Packing 💝</span>
+          <h2>The Signature <em>Pink Box</em> Moment</h2>
+          <p>
+            Every Glowing Gems order arrives wrapped with love in our vibrant magenta branded jewelry box and custom pink-taped parcel—ready to gift to someone special or unbox as your own everyday treat.
+          </p>
+          <ul class="unboxing-list">
+            <li>🎀 Branded hot-pink Glowing Gems keepsake box</li>
+            <li>💎 Velvet-lined protection for transit &amp; storage</li>
+            <li>💌 Care card &amp; custom gold-plating tag (when selected)</li>
+          </ul>
+          <a href="#shop" class="btn btn-primary">Build Your Pink Box 💌</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Proof / Feedbacks & Lookbook -->
+    <section class="feedbacks-section section-pad" id="feedbacks">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">@glowing__gems Community</span>
+          <h2>Customer <em>Feedbacks</em> &amp; Lookbook</h2>
+          <p class="section-sub">Styled across Cairo, by the sea, and on every coffee run.</p>
+        </div>
+
+        <div class="feedback-grid">
+          <article class="feedback-card">
+            <div class="stars">★★★★★</div>
+            <p>“Wore my star bangle and dome ring every single day in Cairo heat and even at the beach—zero tarnish! The pink box packaging made my whole week.”</p>
+            <div class="reviewer">
+              <span class="reviewer-avatar">J</span>
+              <div>
+                <strong>Jannah A.</strong>
+                <span>Cairo • Added Gold Plating</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feedback-card">
+            <div class="stars">★★★★★</div>
+            <p>“The North Star necklace layers so cleanly with everything. Super lightweight, gorgeous shine, and fast delivery right to my door.”</p>
+            <div class="reviewer">
+              <span class="reviewer-avatar">M</span>
+              <div>
+                <strong>Mariam K.</strong>
+                <span>New Cairo • Verified Order</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="feedback-card">
+            <div class="stars">★★★★★</div>
+            <p>“Got the puffed heart hoops + hand-chain with custom gold plating. Looks like fine jewelry and arrived in the cutest magenta box!”</p>
+            <div class="reviewer">
+              <span class="reviewer-avatar">S</span>
+              <div>
+                <strong>Salma E.</strong>
+                <span>Alexandria • Verified Order</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shipping & Policy Accordion -->
+    <section class="policy-section section-pad" id="shipping-policy">
+      <div class="container policy-container">
+        <div class="section-header">
+          <span class="eyebrow">Good to Know</span>
+          <h2>Shipping, Care &amp; <em>Policy</em></h2>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="true">
+              <span>🛵 Cairo &amp; Egypt-Wide Shipping</span>
+              <span class="acc-icon">−</span>
+            </button>
+            <div class="accordion-panel open">
+              <p>We ship across Cairo, Giza, Alexandria, and all Egyptian governorates. Standard orders dispatch within 24–48 hours. Orders with <strong>Custom Gold Plating</strong> require 2–3 extra business days as each piece is plated fresh to order.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span>❣️ How Custom Gold Plating Works</span>
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>All our base pieces are crafted from durable, skin-friendly stainless steel. Selecting the <strong>Custom Gold Plating (+120 EGP)</strong> option adds a rich, protective gold finish tailored to your order—helping resist perfume, sweat, and daily friction even longer.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-trigger" aria-expanded="false">
+              <span>🔖 Exchange &amp; Return Policy</span>
+              <span class="acc-icon">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Inspect your parcel upon delivery! Exchanges for unworn pieces in their original Glowing Gems pink box are accepted within 48 hours of receipt. Custom gold-plated orders are final sale unless damaged in transit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <img src="assets/logo.jpg" alt="Glowing Gems Logo" class="logo-img" />
+          <span class="logo-text">GLOWING GEMS</span>
+        </div>
+        <p>Your everyday sparkle starts here! Stainless steel accessories &amp; custom gold plating based in Cairo, Egypt.</p>
+        <p class="owner-credit">Brand Owner: <a href="https://www.instagram.com/bassmalakhalil1_/" target="_blank" rel="noopener">@bassmalakhalil1_</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#shop">New Drops</a>
+        <a href="#categories">Bracelets &amp; Cuffs</a>
+        <a href="#categories">Rings &amp; Earrings</a>
+        <a href="#gold-plating">Custom Gold Plating</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Info</h4>
+        <a href="#unboxing">Pink Box Packaging</a>
+        <a href="#feedbacks">Customer Feedbacks</a>
+        <a href="#shipping-policy">Shipping &amp; Delivery</a>
+        <a href="#shipping-policy">Return Policy</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/glowing__gems/" target="_blank" rel="noopener">Instagram (@glowing__gems)</a>
+        <a href="https://www.tiktok.com/@glowing__gems" target="_blank" rel="noopener">TikTok (@glowing__gems)</a>
+        <a href="#shop">Order via Instagram DM 💌</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© 2026 Glowing Gems • Cairo, Egypt</span>
+        <span>Crafted with ✨</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-Over Shopping Bag Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop" aria-hidden="true"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true">
+    <div class="drawer-header">
+      <h3>Your Pink Box <span id="drawerCount">(0)</span></h3>
+      <button class="icon-btn" id="closeCartBtn" aria-label="Close bag">✕</button>
+    </div>
+
+    <div class="drawer-body" id="cartItems">
+      <!-- Cart items rendered by app.js -->
+    </div>
+
+    <div class="drawer-footer">
+      <div class="subtotal-row">
+        <span>Subtotal</span>
+        <strong id="cartSubtotal">0 EGP</strong>
+      </div>
+      <p class="drawer-note">📍 Cairo &amp; Egypt shipping calculated at checkout.</p>
+      <button class="btn btn-primary btn-full" id="checkoutBtn">Complete Order via Instagram DM 💌</button>
+    </div>
+  </aside>
+
+  <!-- Order Summary Modal -->
+  <div class="modal-backdrop" id="orderModal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+      <button class="icon-btn modal-close" id="closeOrderModal" aria-label="Close modal">✕</button>
+      <span class="eyebrow">Ready to Sparkle ✨</span>
+      <h3 id="orderModalTitle">Your Order Summary</h3>
+      <p>Copy your curated order below and send it straight to <strong>@glowing__gems</strong> on Instagram DM to confirm delivery in Cairo &amp; Egypt:</p>
+      <textarea id="orderSummaryText" readonly rows="7"></textarea>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="copyOrderBtn">Copy Order Summary 📋</button>
+        <a href="https://www.instagram.com/glowing__gems/" target="_blank" rel="noopener" class="btn btn-outline">Open @glowing__gems DM ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
